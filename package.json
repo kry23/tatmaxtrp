@@ -1,0 +1,16 @@
+{
+  "name": "ttrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build  assets/css/style.css -o ./tailwind.css "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.3",
+    "tailwindcss": "^2.0.2"
+  }
+}
